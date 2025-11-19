@@ -1,0 +1,83 @@
+body,
+ul,
+li,
+p,
+h2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header {
+  width: 1200px;
+  height: 450px;
+  background: url(top.jpg) no-repeat center;
+  margin: 0 auto;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+nav {
+  width: 300px;
+  height: 400px;
+  float: left;
+  background-color: #8dae9d;
+}
+nav ul li {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center; /*水平居中 */
+  border-bottom: 1px solid #fff;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  width: 292px;
+  height: 40px;
+  border-left: 8px solid #54a11d;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  background-color: #54a11d;
+  color: #fff;
+}
+.main {
+  width: 880px;
+  height: 390px;
+  float: left;
+  background-color: #a7c0b2;
+  padding: 0px 10px 10px;
+}
+.main h2 {
+  height: 40px;
+  line-height: 40px;
+  text-align: center; /*水平居中 */
+  font-size: 20px;
+  padding-left: 30px;
+  border-bottom: 1px dashed #2c5510;
+}
+.text1 {
+  line-height: 30px;
+  text-indent: 2em;
+  padding-top: 10px;
+}
+footer {
+  width: 1200px;
+  height: 100px;
+  line-height: 60px;
+  background-color: #2c5510;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
